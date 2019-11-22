@@ -1,0 +1,41 @@
+{
+  "message": "Message",
+  "transfer": {
+    "sender": {
+      "client": {
+        "id": 7,
+        "type": "Person"
+      },
+      "account": {
+        "id": 77777,
+        "client": {
+          "id": 7,
+          "type": "Person"
+        },
+        "totalBlocked": 777.1
+      }
+    },
+    "recipient": {
+      "client": {
+        "id": 8,
+        "type": "Person"
+      },
+      "account": {
+        "id": 888,
+        "client": {
+          "id": 8,
+          "type": "Person"
+        },
+        "totalBlocked": 2222.8
+      }
+    },
+    "payment": {
+      "id": 111,
+      "senderAccountId": 77777,
+      "recipientAccountId": 888,
+      "status": "Approved",
+      "total": 123.7,
+      "commission": 7432.87
+    }
+  }
+}
